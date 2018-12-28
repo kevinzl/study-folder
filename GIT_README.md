@@ -47,8 +47,8 @@
  `git config --global user.name "Your Name"` <br/>
  
  #### 参考资料：
-  > https://www.cnblogs.com/smfx1314/p/8426115.html <br/>
-  > https://www.cnblogs.com/jeremylee/p/5715289.html <br/>
+  > `https://www.cnblogs.com/smfx1314/p/8426115.html` <br/>
+  > `https://www.cnblogs.com/jeremylee/p/5715289.html` <br/>
  
  
 	
