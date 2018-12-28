@@ -15,7 +15,7 @@ https://www.redux.org.cn/
 #### React Redux
 http://cn.redux.js.org/docs/react-redux/
 
-###### git 命令操作，要先配置 
+##### git 命令操作，要先配置 
 https://www.cnblogs.com/smfx1314/p/8426115.html <br />
 https://www.cnblogs.com/jeremylee/p/5715289.html 
 
