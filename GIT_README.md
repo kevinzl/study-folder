@@ -1,4 +1,4 @@
-### git 本地命令管理配置文档：
+### git 本地命令管理配置文档1：
 
 #### 第一步：把这个文件夹变成Git可管理的仓库；
 `$ git init`
@@ -49,6 +49,4 @@
  #### 参考资料：
   > `https://www.cnblogs.com/smfx1314/p/8426115.html` <br/>
   > `https://www.cnblogs.com/jeremylee/p/5715289.html` <br/>
- 
- 
-	
+
