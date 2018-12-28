@@ -1,16 +1,17 @@
-# study-folder
+# Study-Folder
 Learning Notebook Arrangement
 
 ## 相关文档
 
-### redux-saga
+#### redux-saga
 https://redux-saga-in-chinese.js.org/
 
-### axios
+#### axios
 http://www.axios-js.com/zh/docs/
 
-### redux
+#### redux
 https://www.redux.org.cn/
 
-### React Redux
+#### React Redux
 http://cn.redux.js.org/docs/react-redux/
+
