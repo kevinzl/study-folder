@@ -5,7 +5,6 @@ import * as Api from '../../api/api';
 import { connect } from 'react-redux';
 import './Todo.css';
 
-/*
 class Todo extends Component {
 
     constructor(props){
@@ -18,16 +17,16 @@ class Todo extends Component {
     componentDidMount(){
 
         // ajax-初始化数据
-        /!*Api.getTodoItemList({
+        /*Api.getTodoItemList({
             // id: 'mock_ids'
         }).then((res)=>{
             const action = createAction.getInitItemAction(res.obj);
             store.dispatch(action);
-        });*!/
+        });*/
 
         // ajax-初始化数据 - redux-thunk
-        // const action = createAction.getInitItemThunkAction(); //这个action就是一个函数action
-        // store.dispatch(action);
+        const action = createAction.getInitItemThunkAction(); //这个action就是一个函数action
+        store.dispatch(action);
 
     }
 
@@ -52,9 +51,9 @@ class Todo extends Component {
         );
     }
 }
-*/
 
 // UI-组件-性能优化
+/*
 const Todo = (props) => {
     const { intVal, itemList, intValChange, addItem, delItem } = props;
     return (
@@ -75,6 +74,7 @@ const Todo = (props) => {
         </div>
     );
 }
+*/
 
 // 把的store数据挂载到Props上,通过对象的方式返回出去
 const mapStateToProps = (state) => {
@@ -96,7 +96,6 @@ const mapDispatchToProps = (dispatch) => {
 
         // add-item
         addItem(intVal) {
-            console.log(intVal)
             if(intVal){
                 const action = createAction.getAddItemAction();
                 dispatch(action);
